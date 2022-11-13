@@ -1,14 +1,18 @@
-body{
-  overflow: hidden;
+body {
   margin: 0;
+  background: #020202;
+  cursor: crosshair;
 }
-.container{
-  position:absolute;
-  top:0;
-  left:0;
-  height:80%;
-  width:30%;
-  text-align:;
-  color:white;
-  font-family:cursive;
+canvas{display:block}
+h1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-family: "Source Sans Pro";
+  font-size: 5em;
+  font-weight: 900;
+  -webkit-user-select: none;
+  user-select: none;
 }
